@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Container Styles */
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Title Styles */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0077cc;
+}
+
+/* Number Display */
+#numberDisplay {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 105px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #005fa3;
+}
+
+#resetBtn {
+  border: none;
+  background-color: #ff5c5c;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  width: 200px;
+  margin: auto;
+}
+
+#resetBtn:hover {
+  background-color: #cc4949;
+}
+
+/* Game Info and Streak Counter */
+.streak-counter,
+.game-info {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.streak-counter span,
+.game-info span {
+  font-weight: bold;
+}
+
+/* Game Over Message */
+#gameOverMessage {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff5c5c;
+}
